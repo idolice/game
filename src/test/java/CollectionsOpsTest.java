@@ -10,19 +10,14 @@ import static org.junit.Assert.assertThat;
 
 public class CollectionsOpsTest {
 
-    private List<Integer> numbers;
+    public List<Integer> numbers;
 
     @Before
     public void setUp() throws Exception {
         numbers = asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     }
 
-    @Test
-    public void should_get_all_odd_numbers() throws Exception {
-        List<Integer> odds = CollectionsOps.odd(numbers);
 
-        assertThat(odds, equalTo(asList(1, 3, 5, 7, 9)));
-    }
 
     @Test
     public void should_double_all_even_numbers() throws Exception {

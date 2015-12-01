@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OutputResultText" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-11-24T09:44:32" hostname="idolice-AWO-XiaoAi" time="0.006">
+  <properties/>
+  <testcase name="should_return_exact_AB_when_result_wrong" classname="OutputResultText" time="0.005"/>
+  <testcase name="should_return_congraduation_when_result_right" classname="OutputResultText" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
